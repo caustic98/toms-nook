@@ -2,7 +2,7 @@
 var html = '<a href="index.html"><h3>Home</h3></a>';//you can change this text to be an image/site button if you want.
 
 
-var section1 = ['About','Portfolio']//write one-word link names in this list
+var section1 = ['about','portfolio']//write one-word link names in this list
 html += '<h3>Section 1:</h3>';
 for (i = 0; i<section1.length; i++){
 	html += '<p> <a href="' + section1[i] + '.html">' + section1[i] + '</a></p>'
